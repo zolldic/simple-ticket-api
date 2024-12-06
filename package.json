@@ -1,0 +1,28 @@
+{
+  "name": "veno",
+  "version": "0.0.1",
+  "description": "backend system is designed to manage ticket sales, purchases, and verification for events. It supports QR code-based ticket validation, online payments, and customized PDF ticket generation. The app differentiates between two user roles: Users (who buy tickets) and Organizers (who sell tickets and manage events)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --watch app.js",
+    "lint": " eslint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.16.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.7",
+    "eslint": "^9.16.0",
+    "express": "^4.21.1",
+    "globals": "^15.13.0",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "dependencies": {
+    "mongoose": "^8.8.3"
+  }
+}
